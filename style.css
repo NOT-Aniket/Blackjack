@@ -1,0 +1,52 @@
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+}
+.space{
+    height: 100px;
+}
+#results{
+    color: coral;
+}
+.container-all{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.flex-row1, .flex-row2 , .flex-row3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.flex-row2{
+    background-image: url(bg1.jpg);
+    background-position: 20%;
+    border-radius: 12px;
+}
+.flex-row1{
+    background-image: url(bg1.jpg);
+    background-position: 20%;
+    color: cornsilk;
+    height: 400px;
+    border-radius: 12px;
+}
+.flex-row1 div{
+    flex: 1;
+    align-items: center;
+    padding: 10px;
+    height: 350px;
+}
+.flex-row1 img{
+    width: 25%;
+    padding: 10px;
+}
+span{
+    color: cornsilk;
+}
+table th{
+    padding: 19px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<title>BLACKJACK</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 style="color: sandybrown; font-size: 38px;"><strong>BLACKJACK</strong></h1>
+    </nav>
+    <div class="space container">
+
+    </div>
+    <div class="container-all">
+        <h1 class="text-center p-5"> <span id="results">Start the Game</span></h1>
+    
+        <div class="flex-row1 p-2">
+            <div class="yourbox" id="your-box">
+                <h1>Your Current Score:<span id="your-result">0</span></h1>
+            </div>
+            <div class="dealerbox" id="dealer-box">
+                <h1>Dealer's Current Score:<span id="dealer-result">0</span></h1>
+            </div>
+        </div>
+        <div class="flex-row2 p-5">
+            <div class="container">
+                <button id="hit" class="btn btn-danger p-2"><h2>HIT ME</h2></button>
+                <button id="stand" class="btn btn-warning p-2"><h2>STAND</h2></button>
+                <button id="deal" class="btn btn-secondary p-2"><h2>DEAL AGAIN</h2></button>
+            </div>
+        </div>
+        <div class="flex-row3 p-5">
+            <table>
+                <tr>
+                    <th><h1 style="color: cornsilk;">Wins</h1></th>
+                    <th><h1 style="color: cornsilk;">Losses</h1></th>
+                    <th><h1 style="color: cornsilk;">Draws</h1></th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins"><h1>0</h1></span></td>
+                    <td><span id="losses"><h1>0</h1></span></td>
+                    <td><span id="draws"><h1>0</h1></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="JS.js" defer></script>
+</body>
+</html>
